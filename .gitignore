@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Solver outputs from sqpack runs
+output/
+
+# Research history (lives in a separate location, never committed here)
+experiments/
+
+# Editor / OS clutter
+.DS_Store
+.idea/
+.vscode/
+
+# Numba persisted artifacts
+__pycache__/numba/
